@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+.padding-card {
+    display:inline-grid;
+    align-items: center;
+    margin:auto;
+    padding:40px;
+    padding-bottom:20px;
+}
+.jumbotron {
+    padding:40px;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    padding:80px;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+}
+h2 {
+    padding-top:40px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+}
+h3 {
+    text-align:center;
+    padding-top:120px;
+    font-family: 'Lato', sans-serif;
+    font-weight:500;
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+}
+h5 {
+    padding-top:20px;
+    padding-left:30px;
+    font-family: 'Raleway', sans-serif;
+}
+.title {
+    padding-top:20px;
+    padding-left:170px;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+}
+iframe {
+    padding:20px;
+    margin:auto;
+    display: flex;    
+}
+a {
+    color:white;
+    text-decoration: none; 
+    font-family: 'Lato', sans-serif;
+}
+a:hover {
+    color:#fcc151;
+}
+button:hover {
+     opacity: 0.8;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show.nav-link {
+    color: #fcc151;
+}
+body {
+    background-color:#e3dfdc;
+}
+.card-body {
+    background-color:#1d4466;
+    color:#d5dbe0;
+}
+.padding-0{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.button {
+    border: none;
+    outline: 0;
+    padding: 7px;
+    background-color:black;
+    text-align: center;
+    margin:auto;
+    width: 15%;
+    font-size: 18px;
+}
+.jumbotron {
+    background-color: #fcc151;
+}
